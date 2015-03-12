@@ -37,9 +37,6 @@ $(document).ready(function() {
         center: [40, -90],
         zoom: 3
     });
-    map.easeTo([40, -90], 6, 180, {
-        'duration': 60000
-    });
 
 
     map.addControl(new mapboxgl.Navigation());
