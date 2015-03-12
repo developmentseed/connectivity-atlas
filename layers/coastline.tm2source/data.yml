@@ -1,0 +1,27 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: devseed.72f37f1a
+  rev: s-fe5c3aeb
+  saveCenter: true
+attribution: ''
+center: 
+  - 0
+  - 0
+  - 3
+description: ''
+Layer: 
+  - id: ne_50m_coastline
+    Datasource: 
+      file: /Users/dan/Downloads/ne_50m_coastline/ne_50m_coastline.shp
+      type: shape
+    description: ''
+    fields: 
+      featurecla: String
+      scalerank: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 6
+minzoom: 0
+name: ''

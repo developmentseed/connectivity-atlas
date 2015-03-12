@@ -1,0 +1,128 @@
+{
+  "version": 7,
+  "name": "Mapping Future",
+  "constants": {
+  },
+  "sources": {
+    "mapbox": {
+      "type": "vector",
+      "url": "mapbox://mappingfuture.vpmsra4i,mappingfuture.b2hs38fr,mappingfuture.pkq08uxr,mappingfuture.ijvh1tt9,mappingfuture.s11exw29,mappingfuture.aodh1tt9,mappingfuture.h8ttvs4i,mappingfuture.6x3zbyb9,mappingfuture.gf3tmx6r,mappingfuture.sd2yy14i,mappingfuture.8qdaq0k9"
+    }
+  },
+  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/outdoors",
+  "glyphs": "",
+  "layers": [{
+    "id": "HGL_Pipelines_US_Nov2014",
+    "source": "mapbox",
+    "source-layer": "HGL_Pipelines_US_Nov2014",
+    "type": "line",
+    "paint": {
+      "line-color": "#01da83",
+      "line-width": 0.9
+    }
+   },
+   {
+    "id": "CrudeOil_Pipelines_US_Nov2014",
+    "source": "mapbox",
+    "source-layer": "CrudeOil_Pipelines_US_Nov2014",
+    "type": "line",
+    "paint": {
+      "line-color": "#e50fee",
+      "line-width": 0.9
+    }
+   },
+   {
+    "id": "NaturalGas_InterIntrastate_Pipelines_US",
+    "source": "mapbox",
+    "source-layer": "NaturalGas_InterIntrastate_Pipelines_US",
+    "type": "line",
+    "paint": {
+      "line-color": "#c7125a",
+      "line-width": 0.8
+    }
+   },
+   {
+    "id": "US_ShalePlays_EIA_May2011",
+    "source": "mapbox",
+    "source-layer": "US_ShalePlays_EIA_May2011",
+    "type": "fill",
+    "paint": {
+      "fill-color": "#00ff88",
+      "fill-opacity": 0.15
+    }
+   },
+   {
+    "id": "US_ShaleBasins_EIA_May2011",
+    "source": "mapbox",
+    "source-layer": "US_ShaleBasins_EIA_May2011",
+    "type": "fill",
+    "paint": {
+      "fill-color": "#003dff",
+      "fill-opacity": 0.16
+    }
+   },
+   {
+    "id": "ne_10m_railroads",
+    "source": "mapbox",
+    "source-layer": "ne_10m_railroads",
+    "type": "line",
+    "paint": {
+      "line-color": "#7b01da",
+      "line-width": 0.5
+    }
+   },
+   {
+    "id": "ne_50m_rivers_lake_centerlines",
+    "source": "mapbox",
+    "source-layer": "ne_50m_rivers_lake_centerlines",
+    "type": "line",
+    "paint": {
+      "line-color": "#0f95ee",
+      "line-width": 0.5
+    }
+   },
+   {
+    "id": "ne_50m_urban_areas",
+    "source": "mapbox",
+    "source-layer": "ne_50m_urban_areas",
+    "type": "line",
+    "paint": {
+      "line-color": "#00f881",
+      "line-width": 0.5
+    }
+   },
+   {
+    "id": "waterways",
+    "source": "mapbox",
+    "source-layer": "waterways",
+    "type": "line",
+    "paint": {
+      "line-color": "#0b1ce4",
+      "line-width": 0.5
+    }
+   },
+    {
+    "id": "ne_10m_roads",
+    "source": "mapbox",
+    "source-layer": "ne_10m_roads",
+    "type": "line",
+    "paint": {
+      "line-color": "#c20238",
+      "line-width": 0.5
+    }
+   },
+    {
+    "id": "ne_10m_airports",
+    "source": "mapbox",
+    "source-layer": "ne_10m_airports",
+    "type": "symbol",
+    "layout": {
+      "icon-image": "night-airport-12"
+    },
+    "paint": {
+       "icon-opacity": 0.6
+    }
+   }
+  ]
+}
+

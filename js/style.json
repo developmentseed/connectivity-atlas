@@ -1,0 +1,53 @@
+---
+---
+{
+  "version": 7,
+  "name": "Mapping Future",
+  "constants": {
+  },
+  "sources": {
+  {% for source in site.sources %}
+    "{{ source.id }}": {
+      "themes": "{{ source.themes}}",
+      "type": "vector",
+      "url": "{{ source.source-url }}"
+    }{% if forloop.index != forloop.length - 1 %},{% endif %}
+  {% endfor %}
+  },
+  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/outdoors",
+  "glyphs": "",
+  "layers": [
+  {% for source in site.sources %}
+    {
+      "id": "{{ source.id }}",
+      "source": "{{ source.id }}",
+      "source-layer": "{{ source.layer }}",
+      "title": "{{ source.title }}",
+      "themes": "{{ source.themes}}",
+      "attribution": "{{ source.attribution }}",
+      "attribution-url": "{{ source.attribution-url }}",
+      {% if source.tags contains 'line' %}
+      "type": "line",
+      "paint": {
+        "line-color": "{{ source.line-color }}",
+        "line-width": {{ source.line-width }}
+      }
+      {% elsif source.tags contains 'fill' %}
+      "type": "fill",
+      "paint": {
+        "fill-color": "{{ source.fill-color }}",
+        "fill-opacity": {{ source.fill-opacity }}
+      }
+      {% elsif source.tags contains 'symbol' %}
+      "type": "symbol",
+      "layout": {
+        "icon-image": "{{ source.icon-image }}"
+      },
+      "paint": {
+        "icon-opacity": "{{ source.icon-opacity }}"
+      }
+      {% endif %}
+    }{% if forloop.index != forloop.length - 1 %},{% endif %}
+  {% endfor %}
+  ]
+}

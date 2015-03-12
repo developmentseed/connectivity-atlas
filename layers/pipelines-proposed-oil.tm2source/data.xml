@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">81.5066,38.7033,4</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Features","description":"","fields":{"Name":"String","Description":"String"}},{"id":"Feature_Labels__Name_","description":"","fields":{"Name":"String","Description":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">6</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+</Parameters>
+
+
+<Layer name="Features"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/dan/Documents/mapping-future/layers/global-proposed-pipelines-oil.kml]]></Parameter>
+       <Parameter name="layer"><![CDATA[Features]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Feature_Labels__Name_"
+  buffer-size="8"
+  srs="+init=epsg:4326">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/dan/Documents/mapping-future/layers/global-proposed-pipelines-oil.kml]]></Parameter>
+       <Parameter name="layer"><![CDATA[Feature Labels (Name)]]></Parameter>
+       <Parameter name="type"><![CDATA[ogr]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

@@ -1,0 +1,28 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: devseed.04dd995b
+  rev: s-f6ae20f0
+  saveCenter: true
+attribution: ''
+center: 
+  - 0
+  - 0
+  - 3
+description: ''
+Layer: 
+  - id: built
+    Datasource: 
+      file: /Users/dan/Documents/mapping-future/layers/global-oil-pipelines-built.kml
+      layer: built
+      type: ogr
+    description: ''
+    fields: 
+      Description: String
+      Name: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+maxzoom: 6
+minzoom: 0
+name: ''

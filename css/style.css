@@ -1,0 +1,115 @@
+body {
+  background: #000;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+a.active {
+  color: #fff;
+}
+
+
+.navbar-default {
+  z-index: 1000;
+  border-radius: 0px;
+  border: none;
+  background: #111;
+  background: rgba(0,0,0, 0.5);
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ccc;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a:hover {
+  background: #444;
+  color: #eee;
+}
+.dropdown-menu {
+  background: #111;
+  background: rgba(0,0,0, 0.5);
+}
+.dropdown-menu li a {
+  color: #fff;
+}
+.dropdown-menu li a:focus,
+.dropdown-menu li a:hover {
+  background: #333;
+  color: #eee;
+}
+.menu-sources li a {
+  color: #777;
+}
+.menu-sources li a.active {
+  color: #fff;
+}
+
+
+table {
+  font-size: 13px;
+}
+
+
+#map {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+.mapboxgl-ctrl-nav {
+  top: 60px;
+}
+
+.highlight {
+  background: #fff;
+  padding: 0 5px;
+}
+#logo {
+  color: #000;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 300;
+}
+h2 {
+  margin-top: 0;
+}
+#features {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  background: #111;
+  background: rgba(0,0,0, 0.5);
+  z-index: 100;
+  width: 300px;
+  text-shadow: 1px #000;
+  padding: 20px;
+}
+#features .btn-primary {
+  margin: 10px 0 0 0;
+}
+#sources {
+ position: fixed;
+ top: 60px;
+ left: 10px;
+ z-index: 100;
+ color: #fff;
+ padding: 10px;
+}
+

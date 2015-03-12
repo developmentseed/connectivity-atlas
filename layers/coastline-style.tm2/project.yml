@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: ''
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -3.3398
+  - 26.037
+  - 3
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 6
+minzoom: 0
+name: ''
+source: "tmsource:///Users/dan/Documents/mapping-future/layers/coastline.tm2source"
+styles: 
+  - style.mss
+template: ''

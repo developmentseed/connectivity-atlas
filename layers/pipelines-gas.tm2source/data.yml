@@ -1,0 +1,42 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: devseed.4b5ae6c5
+  rev: s-baba02d7
+  saveCenter: true
+attribution: ''
+center: 
+  - -115.0488
+  - 47.0701
+  - 4
+description: ''
+Layer: 
+  - id: Western_Natural_Gas_Pipelines_1_polyline
+    Datasource: 
+      file: /Users/dan/Downloads/Pipelines/Western_Natural_Gas_Pipelines_1_polyline.shp
+      type: shape
+    description: ''
+    fields: 
+      ID: Number
+      CODE: String
+      COMPANY_ID: Number
+      DIAMETER: Number
+      LAYER_ID: Number
+      LENGTH_MI: Number
+      NAME: String
+      NAME0: String
+      NAME1: String
+      PROJECT_ID: Number
+      PROPOSED: String
+      REC_ID: Number
+      SEGMENT_ID: Number
+      SOURCE: String
+      TYPE: String
+      ZONE: String
+      ZONE_ID: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 9
+minzoom: 0
+name: ''

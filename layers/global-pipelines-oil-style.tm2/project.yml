@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: devseed.f57c808d
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 11.6016
+  - 34.6694
+  - 3
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 6
+minzoom: 0
+name: ''
+source: "mapbox:///devseed.04dd995b"
+styles: 
+  - style.mss
+template: ''

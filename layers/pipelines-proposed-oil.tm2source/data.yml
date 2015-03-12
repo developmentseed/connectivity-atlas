@@ -1,0 +1,40 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: devseed.9b849bcc
+  rev: s-ed0d1e16
+  saveCenter: true
+attribution: ''
+center: 
+  - 81.5066
+  - 38.7033
+  - 4
+description: ''
+Layer: 
+  - id: Features
+    Datasource: 
+      file: /Users/dan/Documents/mapping-future/layers/global-proposed-pipelines-oil.kml
+      layer: Features
+      type: ogr
+    description: ''
+    fields: 
+      Description: String
+      Name: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+  - id: Feature_Labels__Name_
+    Datasource: 
+      file: /Users/dan/Documents/mapping-future/layers/global-proposed-pipelines-oil.kml
+      layer: Feature Labels (Name)
+      type: ogr
+    description: ''
+    fields: 
+      Description: String
+      Name: String
+    properties: 
+      "buffer-size": 8
+    srs: "+init=epsg:4326"
+maxzoom: 6
+minzoom: 0
+name: ''

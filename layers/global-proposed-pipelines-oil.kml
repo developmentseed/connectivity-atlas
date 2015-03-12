@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>proposed</name>
+	<Snippet maxLines="0"></Snippet>
+	<description>Exported from dashed on 8/12/2009</description>
+	<Schema name="dashed" id="dashed_schema">
+		<SimpleField type="string" name="Name"><displayName>Name</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SHAPE_Leng"><displayName>SHAPE_Leng</displayName>
+</SimpleField>
+		<SimpleField type="string" name="source2"><displayName>source2</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="FEATURES00">
+		<BalloonStyle>
+			<text><![CDATA[Pipeline:<b>$[dashed/Name]</b><br>
+Length (km):<b>$[dashed/SHAPE_Leng]
+<a href="$[dashed/source2]">Data source</a>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="FEATURES_LABELS00">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Features</name>
+		<Placemark>
+			<name>&lt;Null&gt;</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="SHAPE_Leng">871.183672919</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					123.383052642,41.802165039,0 121.113473665,41.100065961,0 120.855317044,40.767179792,0 119.591708321,39.9451547620001,0 116.388036689,39.906189134,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>&lt;Null&gt;</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="SHAPE_Leng">521.170627236</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					36.563004521,40.305996165,0 36.3097756440001,36.632120865,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>&lt;Null&gt;</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name"></SimpleData>
+					<SimpleData name="SHAPE_Leng">259.334988288</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					54.37099862800001,24.476004076,0 55.32900355499999,25.2710011450001,0 56.3499995060001,25.119000101,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D16</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D16</SimpleData>
+					<SimpleData name="SHAPE_Leng">2266.7046052</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					57.429890357,67.8339172180001,0 48.73886546200001,67.6680579640001,0 53.299994939,63.214737002,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D33</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D33</SimpleData>
+					<SimpleData name="SHAPE_Leng">4126.19598021</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					63.223354089,60.892707449,0 43.8509932540001,66.10068801600001,0 41.07988064,66.8456617840001,0 40.3480458160001,67.7509875910001,0 35.4220259800001,69.160791248,0 33.0859985640001,68.96400317200001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D41</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D41</SimpleData>
+					<SimpleData name="SHAPE_Leng">4054.51194012</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.0859985640001,68.96400317200001,0 32.0998651280001,67.1041365010001,0 34.189691725,65.34602841200009,0 36.8600257100001,63.5879203220001,0 42.963646247,60.15463377,0 53.178917684,63.2727877400001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D43</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D43</SimpleData>
+					<SimpleData name="SHAPE_Leng">1870.92938898</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					58.590905133,67.095843539,0 43.8294315510001,66.1172739420001,0 42.204010865,66.46557837500011,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D60</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D60</SimpleData>
+					<SimpleData name="SHAPE_Leng">3605.98147379</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					84.900695801,45.383300781,0 82.396484375,45.7457275390001,0 78.378112793,45.0131225590001,0 74.3834838870001,45.0828857420001,0 70.232727051,46.37988281199999,0 67.864074707,47.12011718700009,0 66.053283691,46.812316895,0 65.47668457,45.6881103520001,0 62.30609130900011,45.803527832,0 60.13360379000001,47.88752804800001,0 56.44064391300011,48.98893713400011,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D61</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D61</SimpleData>
+					<SimpleData name="SHAPE_Leng">1677.89954579</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					51.447996548,35.7740011000001,0 53.0530025350001,36.564003044,0 54.09446069800001,36.751892994,0 54.376862448,39.5310805550001,0 52.957998532,40.024998127,0 52.58514146099999,42.1257329150001,0 54.5422806920001,44.862410653,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D62</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D62</SimpleData>
+					<SimpleData name="SHAPE_Leng">2077.84955667</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					64.422000654,39.7659960110001,0 63.5730036200001,39.087999034,0 61.83900063800009,37.59100208,0 62.187003506,34.3449990650001,0 63.7292249270001,25.8715257470001,0 62.999444197,25.274432423,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D62</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D62</SimpleData>
+					<SimpleData name="SHAPE_Leng">1344.64563456</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					64.422000654,39.7659960110001,0 61.6410568090001,41.694498831,0 54.475937048,44.77948095,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D68</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D68</SimpleData>
+					<SimpleData name="SHAPE_Leng">5009.96365164</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					112.361328125,34.671325684,0 111.212280273,35.0548706050001,0 108.883483887,34.265686035,0 107.222290039,34.584289551,0 104.850708008,35.039123535,0 103.600097656,36.113098145,0 102.3046875,38.043273926,0 98.4711303710001,40.0321044920001,0 95.31768798800002,42.4821166990001,0 90.331115723,42.395690918,0 87.5870971680001,43.7830810550001,0 87.852294922,50.120483398,0 87.17000468100009,53.70000309400011,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D8</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D8</SimpleData>
+					<SimpleData name="SHAPE_Leng">938.861259789</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					135.131286621,48.42547607400009,0 134.991088867,46.64727783200001,0 131.960510254,43.130126953,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D8/N</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D8/N</SimpleData>
+					<SimpleData name="SHAPE_Leng">4228.17270586</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					135.127075195,48.43212890600011,0 132.00105931,49.195483944,0 130.523452335,49.2464359080001,0 125.750951647,53.2631491210001,0 123.551525173,53.73020879700001,0 120.892204143,53.814664332,0 109.995250767,55.9708347110001,0 108.515786169,55.7718035990001,0 107.321599497,54.2790702600001,0 103.573180223,53.051711736,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D81</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">D81</SimpleData>
+					<SimpleData name="SHAPE_Leng">1115.73128621</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					142.688012522,53.256301191,0 142.278941518,51.30708417599999,0 142.579816266,49.712448012,0 142.068329194,48.599211444,0 142.749999627,46.96000209300011,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Daqing</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">Daqing</SimpleData>
+					<SimpleData name="SHAPE_Leng">2025.93951254</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					123.383052642,41.802165039,0 123.609663403,44.296702547,0 122.917651482,45.7409013380001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Daqing</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">Daqing</SimpleData>
+					<SimpleData name="SHAPE_Leng">2025.93951254</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/asia_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					120.910515006,53.78965275600001,0 122.878479004,45.727111816,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>E42</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">E42</SimpleData>
+					<SimpleData name="SHAPE_Leng">356.755479961</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/europe_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					19.490004598,40.4720010980001,0 19.7163225900001,40.592804502,0 19.7878524420001,40.8334049110001,0 19.8616971600001,41.081791691,0 20.7892703620001,41.1975568820001,0 21.0294096850001,41.22752732,0 21.4333386160001,41.98333506,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>E43</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">E43</SimpleData>
+					<SimpleData name="SHAPE_Leng">686.340255383</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/europe_oil_gas_and_products_pipelines.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					21.4333386160001,41.98333506,0 22.3239108110001,41.958374393,0 24.607549814,41.894369305,0 25.5037378430001,42.0168988170001,0 27.096902715,42.420067071,0 27.4640045030001,42.5279970540001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>F40</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">F40</SimpleData>
+					<SimpleData name="SHAPE_Leng">679.366753847</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/africa_oil_gas_and_products_pipelines_map.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.5299966370001,15.5500019990001,0 27.8266148710001,11.747725603,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>F42</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">F42</SimpleData>
+					<SimpleData name="SHAPE_Leng">628.912744544</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/africa_oil_gas_and_products_pipelines_map.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					34.5484376140001,17.481753606,0 32.524663025,20.8065261460001,0 31.2800045640001,21.76000203,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>F43</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#FEATURES00</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dashed_schema">
+					<SimpleData name="Name">F43</SimpleData>
+					<SimpleData name="SHAPE_Leng">457.197065978</SimpleData>
+					<SimpleData name="source2">http://www.theodora.com/pipelines/africa_oil_gas_and_products_pipelines_map.html</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					27.8266148710001,11.747725603,0 27.7061520970001,9.916691450000069,0 27.9919984860001,7.695999094000041,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Feature Labels (Name)</name>
+		<Placemark>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>120.052950260495,40.2452100023992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>36.4363900825,38.469058515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>55.2471789846313,25.2030993088174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D16</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>49.8976407243038,67.69017199576059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D33</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>47.9835002451827,64.9897229515776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D41</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>41.0655080449406,61.222336508639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D43</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>50.380828581514,66.5515800372773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D60</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>69.9178177524243,46.4782960250676,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D61</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>53.7347705839076,39.7545977302113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D62</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>62.4478727197763,32.9116975349335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D62</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>59.61266098516351,42.5678359217281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D68</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>96.11234393717389,41.8647225819117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D8</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>134.057969546751,45.5643422422925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D8/N</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>119.610280063921,54.06831749835421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>D81</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>142.522892749195,50.014142650993,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Daqing</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>123.568799097596,43.8468671459029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Daqing</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>121.894497005,49.758382286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>E42</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>20.4903524969011,41.1602506255538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>E43</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>24.4851445168515,41.8978000406835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>F40</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>30.1783057540001,13.6488638010001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>F42</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>33.1289395242378,19.8137861826894,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>F43</name>
+			<styleUrl>#FEATURES_LABELS00</styleUrl>
+			<Point>
+				<coordinates>27.73194203056841,9.71633380848089,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

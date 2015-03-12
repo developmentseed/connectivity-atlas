@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">11.6016,34.6694,3</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">6</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///devseed.04dd995b]]></Parameter>
+</Parameters>
+
+
+<Style name="built-dash" filter-mode="first">
+  <Rule>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="1.25" stroke="#e80c7a" stroke-dasharray="6, 6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <LineSymbolizer stroke="#e80c7a" stroke-width="2.5" stroke-dasharray="6, 6" />
+  </Rule>
+</Style>
+<Style name="built-line" filter-mode="first">
+  <Rule>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="1.5" stroke="#7b0dff" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="3" stroke="#7b0dff" />
+  </Rule>
+</Style>
+<Style name="built" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="0.5" stroke-linejoin="round" />
+  </Rule>
+</Style>
+<Layer name="built"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>built</StyleName>
+    <StyleName>built-line</StyleName>
+    <StyleName>built-dash</StyleName>  </Layer>
+
+</Map>
