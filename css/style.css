@@ -21,12 +21,19 @@ a.active {
   border: none;
   background: #111;
   background: rgba(0,0,0, 0.5);
+  padding: 10px 0 10px 10px;
 }
 .navbar-default .navbar-brand {
   color: #fff;
+  width: 220px;
+  height: 40px;
+  background: url("images/logo.png") no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+  line-height: 10px;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #ccc;
@@ -71,7 +78,7 @@ table {
   background: #000;
 }
 .mapboxgl-ctrl-nav {
-  top: 60px;
+  top: 80px;
 }
 
 .highlight {
@@ -103,6 +110,8 @@ h2 {
 }
 #features .btn-primary {
   margin: 10px 0 0 0;
+  background: #FF00FF;
+  border: none;
 }
 #sources {
  position: fixed;
