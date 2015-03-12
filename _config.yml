@@ -1,6 +1,6 @@
 # Site settings
 title: Connectivity Atlas | Development Seed
-baseurl: "/mapping-future" # the subpath of your site, e.g. /blog/
+baseurl: "/connectivity-atlas"
 
 # Build settings
 markdown: kramdown
