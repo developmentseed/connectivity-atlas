@@ -5,8 +5,12 @@
 
 $(document).ready(function() {
 
+    $('.loader').show();
+    
     mapboxgl.accessToken ='pk.eyJ1IjoiZG1jY2FyZXkiLCJhIjoiRl9FV3ZXNCJ9.l1rdsm-F9Vwzcimtf1qMHg';
     mapboxgl.util.getJSON('{{ site.baseurl }}/js/style.json', function(err, style) {
+    
+    $('.loader').hide();
 
     if (err) throw err;
     // Filter style.json if necessary
@@ -33,11 +37,10 @@ $(document).ready(function() {
         center: [40, -90],
         zoom: 3
     });
-    /*
     map.easeTo([40, -90], 6, 180, {
         'duration': 20000
     });
-	*/
+
 
     map.addControl(new mapboxgl.Navigation());
 
