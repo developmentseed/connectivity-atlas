@@ -54,9 +54,11 @@ $(document).ready(function() {
                 radius: 5
             }, function(err, features) {
                 if (err) throw err;
-
-                console.log(features[0]);
-
+				
+				var title = null,
+				    operator = null,
+				    id = null;
+				
                 var title = features[0].properties.name;
                 var operator = features[0].properties.OperatorNa;
                 var id = features[0].layer.id;
