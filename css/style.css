@@ -15,6 +15,20 @@ a.active {
 }
 
 
+.loader {
+  z-index: 2000;
+  background: #000;
+  color: #666;
+  width: 200px;
+  padding: 10px;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .navbar-default {
   z-index: 1000;
   border-radius: 0px;
