@@ -38,7 +38,7 @@ $(document).ready(function() {
         zoom: 3
     });
     map.easeTo([40, -90], 6, 180, {
-        'duration': 20000
+        'duration': 60000
     });
 
 
