@@ -1,7 +1,7 @@
 ---
 title: US Shale plays
-attribution: unknown
-attribution-url: unknown
+attribution: EIA
+attribution-url: http://www.eia.gov/maps/layer_info-m.cfm
 id: US_ShalePlays_EIA_May2011
 source-url: mapbox://mappingfuture.ijvh1tt9
 layer: US_ShalePlays_EIA_May2011
