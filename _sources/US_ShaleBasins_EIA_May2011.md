@@ -1,5 +1,4 @@
 ---
-layout: source
 title: US Shale Basins
 attribution: unknown
 attribution-url: unknown

@@ -1,5 +1,4 @@
 ---
-layout: source
 title: US Natural Gas
 attribution: EIA
 attribution-url: http://www.eia.gov/maps/layer_info-m.cfm

@@ -1,5 +1,4 @@
 ---
-layout: source
 title: Airports
 attribution: Natural Earth
 attribution-url:

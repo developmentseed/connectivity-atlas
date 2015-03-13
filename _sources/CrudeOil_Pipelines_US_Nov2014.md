@@ -1,5 +1,4 @@
 ---
-layout: source
 title: US Crude Oil Pipelines
 attribution: unknown
 attribution-url: unknown
