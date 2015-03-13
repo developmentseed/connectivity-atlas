@@ -23,6 +23,7 @@ The site is served via GitHub Pages based on content within the `gh-pages` branc
 Maps are served via [mapbox-gl.js](https://github.com/mapbox/mapbox-gl-js/). Additional data sources can be added by creating an item in the Sources collection and updating the [YAML](http://jekyllrb.com/docs/frontmatter/) front matter. 
 - Source filenames should match the id of the source. 
 - Vector styles specifc to the source should be included.
+- The source-url should be the location of the vector tile set. 
 
 ```
 layout: source
