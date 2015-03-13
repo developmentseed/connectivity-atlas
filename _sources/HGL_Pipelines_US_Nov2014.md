@@ -1,7 +1,7 @@
 ---
 title: US HGL Pipelines
-attribution: unknown
-attribution-url: unknown
+attribution: EIA
+attribution-url: http://www.eia.gov/maps/layer_info-m.cfm
 id: HGL_Pipelines_US_Nov2014
 source-url: mapbox://mappingfuture.vpmsra4i
 layer: HGL_Pipelines_US_Nov2014
