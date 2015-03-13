@@ -3,6 +3,9 @@ body {
   font-family: "Lato", sans-serif;
   color: #fff;
 }
+
+
+/* Typography ============================================================ */
 a {
   color: #fff;
 }
@@ -13,22 +16,12 @@ a:hover {
 a.active {
   color: #fff;
 }
-
-
-.loader {
-  z-index: 2000;
-  background: #000;
-  color: #666;
-  width: 200px;
-  padding: 10px;
-  position: fixed;
-  top: 45%;
-  left: 0;
-  right: 0;
-  margin-right: auto;
-  margin-left: auto;
+h2 {
+  margin-top: 0;
 }
 
+
+/* Nav ================================================================== */
 .navbar-default {
   z-index: 1000;
   border-radius: 0px;
@@ -78,11 +71,7 @@ a.active {
 }
 
 
-table {
-  font-size: 13px;
-}
-
-
+/* Map ================================================================== */
 #map {
   position: fixed;
   left: 0;
@@ -95,22 +84,9 @@ table {
   top: 80px;
 }
 
-.highlight {
-  background: #fff;
-  padding: 0 5px;
-}
-#logo {
-  color: #000;
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  text-transform: uppercase;
-  font-size: 26px;
-  font-weight: 300;
-}
-h2 {
-  margin-top: 0;
-}
+
+
+/* Tooltips ============================================================ */
 #features {
   color: #fff;
   font-size: 12px;
@@ -127,12 +103,32 @@ h2 {
   background: #FF00FF;
   border: none;
 }
-#sources {
- position: fixed;
- top: 60px;
- left: 10px;
- z-index: 100;
- color: #fff;
- padding: 10px;
+
+
+/* Source ============================================================== */
+#source-meta {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  padding: 20px;
+  background: #111;
+  background: rgba(0,0,0, 0.5);
+  z-index: 100;
 }
 
+
+/* Misc ================================================================ */
+.loader {
+  z-index: 2000;
+  background: #000;
+  color: #666;
+  width: 200px;
+  padding: 10px;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
