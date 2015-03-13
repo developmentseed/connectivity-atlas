@@ -1,5 +1,4 @@
 ---
-layout: source
 title: US HGL Pipelines
 attribution: unknown
 attribution-url: unknown

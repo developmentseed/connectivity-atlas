@@ -1,16 +1,27 @@
 # Site settings
 title: Connectivity Atlas | Development Seed
 baseurl: "/connectivity-atlas"
+url: "http://devseed.com"
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: "sources"
+    values:
+      layout: "source"
+  - scope:
+      path: ""
+      type: "themes"
+    values:
+      layout: "theme"
 
 collections:
   sources:
     output: true
     permalink: /source/:path/
-    layout: source
   themes:
     output: true
     permalink: /:path/
-    layout: theme

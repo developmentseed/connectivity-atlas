@@ -1,5 +1,4 @@
 ---
-layout: source
 title: Mexico waterways
 attribution: unknown
 attribution-url: unknown

@@ -1,5 +1,4 @@
 ---
-layout: source
 title: US Shale plays
 attribution: unknown
 attribution-url: unknown

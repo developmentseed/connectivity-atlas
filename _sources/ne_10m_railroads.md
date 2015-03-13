@@ -1,5 +1,4 @@
 ---
-layout: source
 title: Railways
 attribution: Natural Earth
 attribution-url: http://www.naturalearthdata.com/downloads/
