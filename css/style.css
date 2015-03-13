@@ -47,8 +47,8 @@ h2 {
 .navbar-default .navbar-nav > li > a:hover {
   color: #ccc;
 }
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
   background: #444;
   color: #eee;
@@ -128,7 +128,8 @@ table {
   color: #ccc;
 }
 .about-page li.dropdown-sources,
-.data-page li.dropdown-sources {
+.data-page li.dropdown-sources,
+.source-page li.dropdown-sources {
   display: none;
 }
 

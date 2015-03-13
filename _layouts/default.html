@@ -18,7 +18,7 @@
     <meta name="og:title" content="Connectivity Atlas" />
     <meta name="og:description" content="Explore how global infrastructure links us all with the Connectivity Atlas." />
     <meta name="og:image" content="{{ site.url }}{{ site.baseurl }}/css/images/logo-fb.png" />
-    
+
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@developmentseed">
@@ -36,7 +36,12 @@
 
   </head>
 
-  <body{% if page.slug %} class="{{ page.slug }}"{% endif %}>
+  {% if page.collection %}
+    {% assign vars = layout %}
+  {% else %}
+   {% assign vars = page %}
+  {% endif %}
+  <body{% if vars.slug %} class="{{ vars.slug }}"{% endif %}>
 
   <nav class="navbar navbar-default">
   <div class="container-fluid">
