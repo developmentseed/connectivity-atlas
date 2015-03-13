@@ -39,7 +39,8 @@ h2 {
   background-size: contain;
   text-indent: -9999px;
 }
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
   color: #fff;
   line-height: 10px;
 }
