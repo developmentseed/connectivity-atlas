@@ -1,7 +1,7 @@
 ---
 title: Mexico waterways
-attribution: unknown
-attribution-url: unknown
+attribution: Natural Earth
+attribution-url: http://www.naturalearthdata.com/downloads/
 id: waterways
 source-url: mapbox://mappingfuture.gf3tmx6r
 layer: waterways
