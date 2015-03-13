@@ -126,6 +126,10 @@ table {
   font-size: 12px;
   color: #ccc;
 }
+.about-page li.dropdown-sources,
+.data-page li.dropdown-sources {
+  display: none;
+}
 
 
 /* Misc ================================================================ */
