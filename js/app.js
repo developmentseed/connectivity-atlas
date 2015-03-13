@@ -3,6 +3,7 @@
 /* global mapboxgl, _, utils, themes, sourceID */
 'use strict';
 
+
 $(document).ready(function() {
 
     $('.loader').show();
@@ -19,7 +20,6 @@ $(document).ready(function() {
     } else if (typeof sourceID !== 'undefined') {
         style = utils.generateStyleFromSourceID(style, sourceID);
     }
-    console.log(style);
 
     var activeLayers = [];
     var featureHover = true;
@@ -31,7 +31,7 @@ $(document).ready(function() {
         activeLayers.push(layer.id);
     });
 
-    var map = new mapboxgl.Map({
+       var map = new mapboxgl.Map({
         container: 'map',
         style: style,
         center: [40, -90],
@@ -40,7 +40,6 @@ $(document).ready(function() {
 
 
     map.addControl(new mapboxgl.Navigation());
-
 
 
 	    /**
