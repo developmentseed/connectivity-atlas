@@ -26,7 +26,6 @@ Maps are served via [mapbox-gl.js](https://github.com/mapbox/mapbox-gl-js/). Add
 - The source-url should be the location of the vector tile set. 
 
 ```
-layout: source
 title: US Crude Oil Pipelines
 attribution: unknown
 attribution-url: unknown
