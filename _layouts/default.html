@@ -11,15 +11,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href='{{site.baseurl}}/css/style.css' rel='stylesheet' />
 
+    <!-- Facebook meta tags -->
+    <meta name="og:url" content="{{ site.url }}{{ site.baseurl }}" />
+    <meta name="og:title" content="Connectivity Atlas" />
+    <meta name="og:description" content="Explore how global infrastructure links us all with the Connectivity Atlas." />
+    <meta name="og:image" content="{{ site.url }}{{ site.baseurl }}/css/images/logo-fb.png" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.7.0/mapbox-gl.js'></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js"></script>
-    
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
     <script src="{{site.baseurl}}/js/utils.js"></script>
-   
+
   </head>
 
   <body>
@@ -61,8 +67,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Share <span class="caret"></span></a>
           <ul class="dropdown-menu menu-share" role="menu">
-           <li><a href="#">Twitter</a></li>
-           <li><a href="#">Facebook</a></li>
+           <li><a href="https://twitter.com/share?text=Explore how global infrastructure links us all with the Connectivity Atlas.&url={{ site.url }}{{ site.baseurl }}" target="_blank">Twitter</a></li>
+           <li><a href="http://facebook.com/sharer.php" target="_blank">Facebook</a></li>
           </ul>
         </li>
       </ul>
