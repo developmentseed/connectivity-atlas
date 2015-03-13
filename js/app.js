@@ -55,25 +55,20 @@ $(document).ready(function() {
             }, function(err, features) {
                 if (err) throw err;
 				
-				var title = null,
-				    operator = null,
-				    id = null;
-				
-                var title = features[0].properties.name;
-                var operator = features[0].properties.OperatorNa;
+				var title = null;
                 var id = features[0].layer.id;
-                if (title !== undefined) {
+                
+                style.layers.forEach(function(layer) {
+                   if (id == layer.id) {
+                     title = layer.title;
+                   }
+                });
+                
+                if (id !== undefined) {
                      $('#features').show();
-                    document.getElementById('features').innerHTML =
-                        '<h2>River</h2>' + title + '<br><a class="btn btn-primary" href="{{ site.baseurl }}/source/' + id + '">View layer</a>';
+                    document.getElementById('features').innerHTML = title + '<br><a class="btn btn-primary" href="{{ site.baseurl }}/source/' + id + '">View layer</a>';
                 }
-                if (operator !== undefined) {
-                   $('#features').show();
-                    document.getElementById('features').innerHTML =
-                        '<h2>Pipeline</h2>' + operator + '<br><a class="btn btn-primary" href="{{ site.baseurl }}/source/' + id + '">View layer</a>';
-
-                }
-
+                
 
             });
         });
