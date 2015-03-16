@@ -1,9 +1,10 @@
 ---
 title: US Shale Basins
-attribution: EIA
-attribution-url: http://www.eia.gov/maps/layer_info-m.cfm
+attribution: unknown
+attribution-url: unknown
 id: US_ShaleBasins_EIA_May2011
 source-url: mapbox://mappingfuture.pkq08uxr
+layer: "US_ShaleBasins_EIA_May2011"
 tags:
   - fill
 themes: oil
