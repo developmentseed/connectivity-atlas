@@ -1,6 +1,6 @@
 ---
 title: US Shale Basins
-attribution: eia
+attribution: EIA
 attribution-url: http://www.eia.gov/maps/layer_info-m.cfm
 id: US_ShaleBasins_EIA_May2011
 source-url: mapbox://mappingfuture.pkq08uxr
