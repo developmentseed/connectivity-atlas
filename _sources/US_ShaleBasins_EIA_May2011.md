@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.pkq08uxr
 layer: "US_ShaleBasins_EIA_May2011"
 tags:
   - fill
-themes: oil
+themes: energy, all
 fill-color: '#003dff'
 fill-opacity: 0.16
 ---

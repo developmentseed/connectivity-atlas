@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.sd2yy14i
 layer: ne_10m_roads
 tags:
   - line
-themes: transportation
+themes: transportation, all
 line-color: '#c20238'
 line-width: 0.5
 ---

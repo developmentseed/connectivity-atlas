@@ -1,4 +1,0 @@
----
-name: Oil
-themes: oil
----

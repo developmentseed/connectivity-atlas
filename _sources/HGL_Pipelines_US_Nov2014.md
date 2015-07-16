@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.vpmsra4i
 layer: HGL_Pipelines_US_Nov2014
 tags:
   - line
-themes: oil
+themes: energy, all
 line-color: '#01da83'
 line-width: 0.9
 ---

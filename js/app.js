@@ -7,10 +7,10 @@
 $(document).ready(function() {
 
     $('.loader').show();
-    
+
     mapboxgl.accessToken ='pk.eyJ1IjoiZG1jY2FyZXkiLCJhIjoiRl9FV3ZXNCJ9.l1rdsm-F9Vwzcimtf1qMHg';
     mapboxgl.util.getJSON('{{ site.baseurl }}/js/style.json', function(err, style) {
-    
+
     $('.loader').hide();
 
     if (err) throw err;
@@ -34,8 +34,8 @@ $(document).ready(function() {
        var map = new mapboxgl.Map({
         container: 'map',
         style: style,
-        center: [40, -90],
-        zoom: 3
+        center: [20, -20],
+        zoom: 2
     });
 
 
@@ -53,21 +53,21 @@ $(document).ready(function() {
                 radius: 5
             }, function(err, features) {
                 if (err) throw err;
-				
+
 				var title = null;
                 var id = features[0].layer.id;
-                
+
                 style.layers.forEach(function(layer) {
                    if (id == layer.id) {
                      title = layer.title;
                    }
                 });
-                
+
                 if (id !== undefined) {
                      $('#features').show();
                     document.getElementById('features').innerHTML = title + '<br><a class="btn btn-primary" href="{{ site.baseurl }}/source/' + id + '">View source</a>';
                 }
-                
+
 
             });
         });
