@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.h8ttvs4i
 layer: CrudeOil_Pipelines_US_Nov2014
 tags:
   - line
-themes: oil
+themes: energy, all
 line-color: '#e50fee'
 line-width: 0.9
 ---

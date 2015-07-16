@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.8qdaq0k9
 layer: ne_10m_airports
 tags:
   - symbol
-themes: transportation
+themes: transportation, all
 icon-image: 'night-airport-12'
 icon-opacity: 0.6
 ---

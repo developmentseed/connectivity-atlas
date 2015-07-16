@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.s11exw29
 layer: ne_10m_railroads
 tags:
   - line
-themes: transportation
+themes: transportation, all
 line-color: '#7b01da'
 line-width: 0.5
 ---
