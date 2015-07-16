@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.ijvh1tt9
 layer: US_ShalePlays_EIA_May2011
 tags:
   - fill
-themes: oil  
+themes: energy, all 
 fill-color: '#00ff88'
 fill-opacity: 0.15
 ---

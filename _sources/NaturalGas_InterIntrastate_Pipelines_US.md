@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.b2hs38fr
 layer: NaturalGas_InterIntrastate_Pipelines_US
 tags:
   - line
-themes: oil
+themes: energy, all
 line-color: '#c7125a'
 line-width: 0.8
 ---
