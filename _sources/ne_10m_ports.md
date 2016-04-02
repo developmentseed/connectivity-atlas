@@ -6,8 +6,8 @@ id: ne_10m_ports
 source-url: mapbox://mappingfuture.dfxnc1hm
 layer: ne_10m_ports
 tags:
-  - circle
+  - symbol
 themes: transportation, all
-circle-color: '#33ebcf'
-circle-radius: 1px
+icon-image: 'night-lighthouse-12'
+icon-opacity: 0.6
 ---

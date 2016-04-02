@@ -7,7 +7,7 @@ source-url: mapbox://mappingfuture.bx99vydk
 layer: InternetCables
 tags:
   - line
-themes: communication, all
-line-color: '#9ea0a2'
-line-width: 0.9
+themes: communications, all
+line-color: '#eeeac2'
+line-width: 0.6
 ---
