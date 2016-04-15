@@ -3,7 +3,7 @@ title: Railways
 attribution: Natural Earth
 attribution-url: http://www.naturalearthdata.com/downloads/
 id: ne_10m_railroads
-source-url: mapbox://mappingfuture.s11exw29
+source-url: mapbox://mappingfuture.1whxx8zv
 layer: ne_10m_railroads
 tags:
   - line
