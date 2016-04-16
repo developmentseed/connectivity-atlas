@@ -1,10 +1,10 @@
 ---
 title: Global Oil Pipelines
-attribution: Jeff Blossom, Center for Geographic Analysis, Harvard University
-attribution-url: http://calvert.hul.harvard.edu:8080/opengeoportal/openGeoPortalHome.jsp?BasicSearchTerm=LayerId:HARVARD.SDE2.CGA_OIL_PIPELINES
-id: oil_pipelines
-source-url: mapbox://mappingfuture.44u5k51q
-layer: oil_pipelines
+attribution: Enhanced from the Harvard CGA Oil Dataset
+attribution-url: http://maps.cga.harvard.edu/oil/
+id: global_oil
+source-url: mapbox://mappingfuture.5uc1v7af
+layer: global_oil
 tags:
   - line
 themes: energy, all
