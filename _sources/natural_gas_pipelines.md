@@ -1,10 +1,10 @@
 ---
 title: Global Gas Pipelines
-attribution: Martin, Harvard World Map
-attribution-url: http://worldmap.harvard.edu/data/geonode:natural_gas_pipelines_j96
-id: natural_gas_pipelines_j96
-source-url: mapbox://mappingfuture.3dpnmwpt
-layer: natural_gas_pipelines_j96
+attribution: Enhanced from the Harvard CGA Oil Dataset
+attribution-url: http://maps.cga.harvard.edu/oil/
+id: global_gas
+source-url: mapbox://mappingfuture.7v8ukejr
+layer: global_gas
 tags:
   - line
 themes: energy, all
