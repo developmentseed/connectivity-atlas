@@ -1,6 +1,6 @@
 # Connectivity Atlas
 
-:alert: :alert: This repo does not currently have a maintainer. Contact [@developmentseed](https://github.com/developmentseed/) if you have any questions.
+🚨 This repo does not currently have a maintainer. Contact [@developmentseed](https://github.com/developmentseed/) if you have any questions.
 
 ### Contributing:
 
